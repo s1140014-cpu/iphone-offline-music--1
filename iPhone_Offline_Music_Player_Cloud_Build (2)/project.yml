@@ -1,0 +1,22 @@
+name: OfflineMusicPlayer
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  OfflineMusicPlayer:
+    type: application
+    platform: iOS
+    sources:
+      - path: ContentView.swift
+      - path: OfflineMusicPlayerApp.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.OfflineMusicPlayer
+        PRODUCT_NAME: OfflineMusicPlayer
+        SWIFT_VERSION: "5.0"
+        INFOPLIST_KEY_UIBackgroundModes:
+          - audio
+        GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
