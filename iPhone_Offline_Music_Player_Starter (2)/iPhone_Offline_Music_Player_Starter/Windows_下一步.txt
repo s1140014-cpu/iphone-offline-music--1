@@ -1,0 +1,6 @@
+你現在在 Windows：
+1. 解壓縮此 ZIP。
+2. 這些是原生 iOS 的 Swift 程式碼，Windows 本身不能用 Xcode 編譯成可安裝的 iPhone App。
+3. 若有 Mac：安裝 Xcode，建立 SwiftUI iOS App，再把兩個 .swift 檔案放入專案，並設定 Background Modes > Audio。
+4. 若沒有 Mac：需要使用可信任的雲端 Mac 建置服務，或借用 Mac 完成一次建置與簽署。
+5. 完成安裝後，在 iPhone「檔案」App 中選取 MP3，從播放器按「匯入音樂」。
